@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Appointment - Dr. Soumita's Dental Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Dr. Soumita's Dental Care Logo">
+                <a href="index.html">Dr. Soumita's Dental Care</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active btn-contact">Contact & Book</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <h1>Contact & Book Your Appointment</h1>
+            <p>We look forward to welcoming you to our clinic. Reach out to us for expert care!</p>
+        </div>
+    </section>
+
+    <section class="contact-grid-section">
+        <div class="container">
+            
+            <div class="contact-form-card">
+                <h2>Book Your Appointment</h2>
+                <form action="#" method="POST" class="appointment-form">
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Name" required>
+
+                    <label for="phone">Phone / WhatsApp:</label>
+                    <input type="tel" id="phone" name="Phone" placeholder="+91-9046107636" required>
+                    
+                    <label for="email">Email (Optional):</label>
+                    <input type="email" id="email" name="Email">
+                    
+                    <label for="service">Preferred Service:</label>
+                    <select id="service" name="Service" required>
+                        <option value="">-- Select Service --</option>
+                        <option value="Checkup">Routine Dental Exam & Cleaning</option>
+                        <option value="Consultation">General Consultation</option>
+                        <option value="Endodontics">Root Canal/Endodontic Consultation</option>
+                        <option value="Cosmetic">Cosmetic Enquiry (Whitening/Veneers)</option>
+                        <option value="Emergency">Dental Pain/Emergency</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="Message" rows="4" placeholder="Briefly describe your request or concern."></textarea>
+                    
+                    <button type="submit" class="btn btn-primary">Request Appointment</button>
+                    
+                </form>
+            </div>
+
+            <div class="contact-info-card">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>
+                        **Address:** Chappna Road, Action Area III, Newtown, Chhapna, West Bengal 700135, India (Opp. Sakib Role Centre)
+                    </p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>**Call/WhatsApp:** <a href="tel:+919046107636">+91-9046107636</a></p>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>**Email:** <a href="mailto:dentalcaredrsoumitapramanick@gmail.com">dentalcaredrsoumitapramanick@gmail.com</a></p>
+                </div>
+
+                <div class="info-item whatsapp-link">
+                    <i class="fab fa-whatsapp"></i>
+                    <p><a href="https://wa.me/919046107636" target="_blank">Chat with us on WhatsApp</a></p>
+                </div>
+
+                <h2 class="map-heading">Find Us on Map</h2>
+                <div class="map-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14737.261672236804!2d88.501216!3d22.5673034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b0072d3a2b7%3A0x42ccfc638ff3c38f!2sDr.%20Soumita%E2%80%99s%20Dental%20Care!5e0!3m2!1sen!2sdk!4v1762756772357!5m2!1sen!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>DR. SOUMITA'S DENTAL CARE</h3>
+                <p>DR. SOUMITA'S DENTAL CARE in Newtown, West Bengal</p>
+                <p>Phone/WhatsApp: +91-9046107636</p>
+                <p>Email: dentalcaredrsoumitapramanick@gmail.com</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">Meet Dr. Soumita</a></li>
+                    <li><a href="services.html#pediatric">Pediatric Dentistry</a></li>
+                    <li><a href="services.html#endodontic">Root Canal Therapy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Dr. Soumita's Dental Care. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<form action="https://formspree.io/f/xrbrbazp" method="POST" class="appointment-form">
+    
+    <input type="hidden" name="_subject" value="New Appointment Request from Website" />
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="Name" required>
+    
+    <button type="submit" class="btn btn-primary">Request Appointment</button>
+</form>
